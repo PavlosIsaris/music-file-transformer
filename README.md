@@ -1,4 +1,5 @@
 # Music File Transformer
+
 A simple python script that recursively searches for files and transforms them to mp3, using ffmpeg.
 
 ## About the app
@@ -64,7 +65,7 @@ Example: `--bitrate=320`
 ## Usage examples
 
 ```bash
-python .\music-file-transformer.py --root="C:\Users\Paul\MUSIC" --extensions=.wma,.ogg --keep=0 --frequency=48000 --bitrate=320
+python music-file-transformer.py --root="C:\Users\Paul\MUSIC" --extensions=.wma,.ogg --keep=0 --frequency=48000 --bitrate=320
 ```
 
 ## License
