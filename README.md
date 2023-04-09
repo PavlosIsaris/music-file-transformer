@@ -1,6 +1,6 @@
 # Music File Transformer
 
-A simple python script that recursively searches for files and transforms them to mp3, using ffmpeg.
+A simple python script that recursively searches for files and transforms them to mp3, using [ffmpeg](https://ffmpeg.org/).
 
 ## About the app
 
@@ -8,12 +8,12 @@ This is a simple Python script that, given an audio file extensions, searches fo
 
 ## Features
 
-- Customizable extension filter (.wma, .ogg, .wav)
+- Customizable extension filter (eg .wma, .ogg, .wav or whatever else)
 - Customizable output options (frequency, bitrate)
 
 ## Prerequisites
 
-This application uses ffmpeg, in order to transform the audio files. Make sure that you have a running instance of ffmpeg in your machine, and that can be accessible globally using the `ffmpeg` command.
+This application uses [ffmpeg](https://ffmpeg.org/), in order to transform the audio files. Make sure that you have a running instance of ffmpeg in your machine, and that can be accessible globally using the `ffmpeg` command.
 
 ## Installation / Setup
 
