@@ -57,7 +57,7 @@ Example: `--frequency=48000`
 
 The desired output bitrate, as integer (eg 192 or 320). Default: `320`.
 
-Example: `--frequency=48000`
+Example: `--bitrate=320`
 
 <hr>
 
