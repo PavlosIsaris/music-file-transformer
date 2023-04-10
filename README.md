@@ -4,7 +4,7 @@ A simple python script that recursively searches for files and transforms them t
 
 ## About the app
 
-This is a simple Python script that, given an audio file extensions, searches for files of this extensions and transforms them to .mp3
+This is a simple Python script that, given some audio file extensions, searches for files of this extensions and transforms them to .mp3
 
 ## Features
 
@@ -18,6 +18,12 @@ This application uses [ffmpeg](https://ffmpeg.org/), in order to transform the a
 ## Installation / Setup
 
 Just clone the repository to your machine, and run the python script!
+
+## Usage example
+
+```bash
+python music-file-transformer.py --root="C:\Users\Paul\MUSIC" --extensions=.wma,.ogg --keep=0 --frequency=48000 --bitrate=320
+```
 
 ## Arguments explanation
 
@@ -61,12 +67,6 @@ The desired output bitrate, as integer (eg 192 or 320). Default: `320`.
 Example: `--bitrate=320`
 
 <hr>
-
-## Usage examples
-
-```bash
-python music-file-transformer.py --root="C:\Users\Paul\MUSIC" --extensions=.wma,.ogg --keep=0 --frequency=48000 --bitrate=320
-```
 
 ## License
 
